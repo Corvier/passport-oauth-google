@@ -1,0 +1,28 @@
+{
+  "name": "passport-oauth-google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dev-test": [
+    "R09DU1BYLVBoSFJpcnJacmZ6R3U3Ri1KdTZrLUN3VDB0c2I=",
+    "ODEyODg5NDE3NjQ1LWVtOHQwc28yM3FiajcyYnVmOGVubnZnOGRpOGY2dXU4LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29t"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
